@@ -1,0 +1,34 @@
+$sidebar-bg-color: #ffffff;
+
+// @import '~react-pro-sidebar/dist/scss/styles.scss';
+
+.pro-sidebar{
+  color: #555;
+  min-height: 458px;
+  z-index: 10;
+  width: 200px;
+  min-width: 200px;
+  height: unset;
+}
+
+.pro-sidebar .pro-menu .pro-menu-item {
+  font-size: 1rem;
+}
+
+.pro-sidebar .pro-menu .pro-menu-item > .pro-inner-item:hover{
+  color: #fff;
+}
+
+.pro-sidebar .pro-menu .pro-menu-item.active{
+  color: var(--app-primary);
+  background-color: #EDF2FA;
+  border-right: 3px solid var(--app-primary);
+}
+
+.pro-sidebar > .pro-sidebar-inner {
+    background-color: #201824 !important;
+}
+
+.pro-sidebar .pro-menu .pro-menu-item > .pro-inner-item > .pro-item-content{
+  font-family: 'Oxanium', cursive;
+}
